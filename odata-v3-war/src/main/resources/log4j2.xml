@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===================================================================== -->
+	<!--                                                                       -->
+	<!--  Log4j2 Configuration                                                 -->
+	<!--                                                                       -->
+	<!-- ===================================================================== -->
+
+<Configuration>
+
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss,SSS} %-5p [%c{1}:%M:%L] %m%n"/>
+        </Console>
+        <File name="OSA_FILE" fileName="../logs/${artifactId}.log" append="false">
+            <PatternLayout pattern="%d{HH:mm:ss,SSS} %-5p [%c{1}:%M:%L] %m%n"/>
+        </File>
+    </Appenders>
+    
+    <Loggers>
+        <Logger name="com.wolterskluwer.osa.commons.interceptors.server.OsaLoggingInInterceptor" level="info"/>
+        <Logger name="com.wolterskluwer.osa.commons.interceptors.server.OsaLoggingOutInterceptor" level="info"/>
+        
+        <Root level="info">
+            <!-- <AppenderRef ref="CONSOLE" /> -->
+            <AppenderRef ref="OSA_FILE"/>
+        </Root>
+  </Loggers>
+
+</Configuration>

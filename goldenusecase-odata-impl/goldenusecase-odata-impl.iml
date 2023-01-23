@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/context.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/identity-client-context.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa:identity-odata-server:6.0.7" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks.common:common-odata-api:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks.common:common-edm-definition:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks.common:common-edm4-definition:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa:identity-edm-definition:6.0.7" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa:identity-edm4-definition:6.0.7" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa:identity-odata-api:6.0.7" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa:identity-odata-client:6.0.7" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpclient:4.5.13" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpcore:4.4.15" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.17.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.36" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:2.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest:2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-odata-commons-api:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-context:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-core:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-frontend-jaxrs:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.ws.rs:jakarta.ws.rs-api:2.1.6" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.cxf:cxf-rt-transports-http:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-security:3.4.5" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: jakarta.xml.ws:jakarta.xml.ws-api:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.jws:jakarta.jws-api:2.1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.activation:jakarta.activation:2.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.5.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.jvnet.staxex:stax-ex:1.8.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.geronimo.specs:geronimo-jta_1.1_spec:1.1.1" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.validation:jakarta.validation-api:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-odata-mediation:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-common:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.12" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.27.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:30.0-jre" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:failureaccess:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava" level="project" />
+    <orderEntry type="library" name="Maven: org.checkerframework:checker-qual:3.5.0" level="project" />
+    <orderEntry type="library" name="Maven: commons-jxpath:commons-jxpath:1.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.4" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.ws:jaxws-api:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.soap:javax.xml.soap-api:1.4.0" level="project" />
+    <orderEntry type="library" name="Maven: opentoken:opentoken-agent:2.5.5" level="project" />
+    <orderEntry type="library" name="Maven: org.bitbucket.b_c:jose4j:0.7.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.annotation:javax.annotation-api:1.3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-core:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:6.2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:4.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.ws.xmlschema:xmlschema-core:2.2.5" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.soap:jakarta.xml.soap-api:1.4.2" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.cxf:cxf-rt-features-logging:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-security:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.santuario:xmlsec:2.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.ehcache:ehcache:3.9.9" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.12.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.4" level="project" />
+    <orderEntry type="library" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jaxb:jaxb-runtime:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jaxb:jaxb-core:3.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish.jaxb:txw2:2.3.6" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.istack:istack-commons-runtime:4.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-olingo-client:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-olingo-core-commons:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-commons-api:4.8.0-patched-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-commons-core:4.8.0-20211216-patched" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-client-api:4.8.0-20211216-patched" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-client-core:4.8.0-20211216-patched" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.12.6" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.12.6" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.12.6" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml:aalto-xml:1.2.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-integration-tracing-opentracing:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.cxf:cxf-rt-management:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-util:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-olingo-core-client:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-odata-commons-core:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.12.6" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.12.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-olingo-server:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-olingo-core-server:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-server-api:4.8.0-20211216-patched" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-server-core:4.8.0-20211216-patched" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.olingo:odata-server-core-ext:4.8.0-20211216-patched" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: xerces:xercesImpl:2.12.0" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-proxy:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-odata4j:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-odata4j-core:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: org.odata4j:odata4j-core:0.8.3-20220714-patched" level="project" />
+    <orderEntry type="library" name="Maven: org.core4j:core4j:0.5" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-odata-impl:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:seconddomain-dsl:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:shareddomain-dsl:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks.common:common-dsl:3.2.12" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.xml.bind:jaxb-api:2.4.0-b180830.0359" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.activation:javax.activation-api:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-odata-server:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-edm-definition:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-edm4-definition:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-odata-api:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-odata-client:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-java-odata-itests:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-mock-support:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-security-saml:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-core:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: io.dropwizard.metrics:metrics-core:4.1.31" level="project" />
+    <orderEntry type="library" name="Maven: net.shibboleth.utilities:java-support:8.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-saml-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-messaging-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-profile-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-security-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.67" level="project" />
+    <orderEntry type="library" name="Maven: org.bouncycastle:bcpkix-jdk15on:1.67" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-soap-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xmlsec-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-saml-impl:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-security-impl:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-soap-impl:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-storage-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.velocity:velocity-engine-core:2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xacml-impl:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xacml-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xacml-saml-impl:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xacml-saml-api:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.opensaml:opensaml-xmlsec-impl:4.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.cryptacular:cryptacular:1.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-security-jsontoken:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:6.14.3" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.72" level="project" />
+    <orderEntry type="library" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-test:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:referencedomain-esb:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:osa-osgi:3.2.12" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel.karaf:camel-blueprint:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-engine:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-base-engine:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-base:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-reifier:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-processor:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-xml:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel.karaf:camel-core-osgi:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-jaxp:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-xml-jaxb:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.3" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-bean:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-cxf:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-attachments:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.activation:javax.activation:1.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-spring:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-health:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-main:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-languages:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.3.18" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-cxf-transport:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-http-base:3.7.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.cxf:cxf-rt-rs-client:3.4.5" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-ognl:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: ognl:ognl:3.1.12" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-support:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-api:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-management-api:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-util:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-http:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-cloud:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-core-model:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-http-common:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-file:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.camel:camel-cluster:3.7.0" level="project" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.core:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.osgi:org.osgi.compendium:5.0.0" level="project" />
+    <orderEntry type="library" name="Maven: org.owasp.encoder:encoder:1.2.3" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:seconddomain-odata-server:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:seconddomain-edm-definition:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:seconddomain-edm4-definition:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:seconddomain-odata-api:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:seconddomain-odata-client:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:shareddomain-odata-api:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:shareddomain-edm-definition:3.3.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.wolterskluwer.osa.frameworks:shareddomain-edm4-definition:3.3.0-SNAPSHOT" level="project" />
+  </component>
+</module>

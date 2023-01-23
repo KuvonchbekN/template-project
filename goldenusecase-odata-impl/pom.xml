@@ -1,0 +1,174 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.wolterskluwer.osatutorial</groupId>
+    <artifactId>goldenusecase-odata-impl</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>goldenusecase-odata-impl</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <osa-framework.version>3.2.13</osa-framework.version>
+        <identity.domain.version>6.0.7</identity.domain.version>
+    </properties>
+
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.wolterskluwer.osa</groupId>
+                <artifactId>identity-domain</artifactId>
+                <version>${identity.domain.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.wolterskluwer.osa</groupId>
+            <artifactId>identity-odata-server</artifactId>
+            <version>${identity.domain.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.wolterskluwer.osa</groupId>
+            <artifactId>identity-odata-client</artifactId>
+            <version>${identity.domain.version}</version>
+        </dependency>
+
+        <!-- Logging -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <!-- Testing -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-odata-commons-api</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-odata-mediation</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-security</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-olingo-client</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-olingo-core-client</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-olingo-server</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>osa-proxy</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>referencedomain-odata-impl</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>referencedomain-odata-server</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>referencedomain-odata-client</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>referencedomain-java-odata-itests</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>referencedomain-esb</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>seconddomain-odata-server</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>seconddomain-odata-client</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wolterskluwer.osa.frameworks</groupId>
+            <artifactId>shareddomain-odata-api</artifactId>
+            <version>3.3.0-SNAPSHOT</version>
+        </dependency>
+
+
+
+    </dependencies>
+
+    <profiles>
+        <profile>
+            <id>jetty</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.eclipse.jetty</groupId>
+                        <artifactId>jetty-maven-plugin</artifactId>
+                        <version>9.4.48.v20220622</version>
+                        <configuration>
+                            <httpConnector>
+                                <port>8081</port>
+                            </httpConnector>
+                            <webApp>
+                                <contextPath>/Identity.svc</contextPath>
+                            </webApp>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
