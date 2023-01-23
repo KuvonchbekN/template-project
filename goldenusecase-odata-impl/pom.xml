@@ -16,17 +16,6 @@
     </properties>
 
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.wolterskluwer.osa</groupId>
-                <artifactId>identity-domain</artifactId>
-                <version>${identity.domain.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
 
     <dependencies>
@@ -90,17 +79,7 @@
         </dependency>
         <dependency>
             <groupId>com.wolterskluwer.osa.frameworks</groupId>
-            <artifactId>osa-olingo-core-client</artifactId>
-            <version>3.3.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wolterskluwer.osa.frameworks</groupId>
             <artifactId>osa-olingo-server</artifactId>
-            <version>3.3.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wolterskluwer.osa.frameworks</groupId>
-            <artifactId>osa-proxy</artifactId>
             <version>3.3.0-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -121,27 +100,7 @@
         </dependency>
         <dependency>
             <groupId>com.wolterskluwer.osa.frameworks</groupId>
-            <artifactId>referencedomain-java-odata-itests</artifactId>
-            <version>3.3.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wolterskluwer.osa.frameworks</groupId>
-            <artifactId>referencedomain-esb</artifactId>
-            <version>3.3.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wolterskluwer.osa.frameworks</groupId>
             <artifactId>seconddomain-odata-server</artifactId>
-            <version>3.3.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wolterskluwer.osa.frameworks</groupId>
-            <artifactId>seconddomain-odata-client</artifactId>
-            <version>3.3.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.wolterskluwer.osa.frameworks</groupId>
-            <artifactId>shareddomain-odata-api</artifactId>
             <version>3.3.0-SNAPSHOT</version>
         </dependency>
 
